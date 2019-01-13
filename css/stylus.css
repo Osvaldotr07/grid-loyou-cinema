@@ -71,17 +71,17 @@ body {
 }
 .menu-left {
 	display: grid;
-	grid-template-rows:100px 80px 80px 500px;
+	grid-template-rows:100px 100px 100px 100px;
 	justify-content: center;
 	align-items: center;
 	grid-row-gap: 40px;
 	margin-top: 30px;
 }
-.settings {
-	justify-content: center;
-	align-self: end;
+/* .settings {
+	justify-self: start;
+	align-self: start;
 	margin-bottom: 30px;
-}
+} */
 .menu-left a {
 	color: white;
 	text-decoration: none;
@@ -133,8 +133,6 @@ h2 {
 	right: 0;
 	bottom: 0;
 	padding: 10px;
-	transition: .3s;
-	delay: .2;
 }
 .post:hover .post-info{
 	top:0;
