@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	font-family: Arial;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 10% 1fr;
+	height: 100vh;
+	grid-template-rows: 78px 1fr;
+	grid-template-areas: "header header "
+												"aside content "
+
+}
+
+.header {
+	grid-area: header;
+}
+
+.aside {
+	grid-area: aside;
+	background: green;
+}
+.content {
+	grid-area: content;
+	background: gray;
+}
